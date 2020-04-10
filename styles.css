@@ -1,0 +1,42 @@
+/* ACM-W HTML & CSS Workshop - Project 2 CSS Stylesheet */
+
+/* b. Make all <h1> and all <p> elements have the same color (other than black!)*/
+h1, p {
+	color: darkviolet;
+}
+
+/* c. Change the background color of your unordered list */
+ul, li{
+	background-color: lightblue;
+}
+
+* {
+	/* d. Change the dont of your entire website */
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BONUS CHALLENGES */
+/* a. Make all <dt> elements be bold using classes */
+dt.boldClass /* or .boldClass */ {
+	font-weight: bold;
+}
+
+/* b. Make <li> elements italic and pink but make the third <li> purple (hint: use the id attribute) */
+.italicClass /* or li.italicClass */ {
+	font-style: italic;
+	color: pink;
+}
+#specialLI /* or li#specialLI */ {
+	color: purple;
+}
+
+/* c. Set the left margin of your <h1> to 20px */
+h1 {
+	margin-left: 20px;
+}
+
+/* d. Set the background-color of your entire website to a light pink using HSL, 
+	without messing up the other elements’ background-colors*/
+body {
+	background-color: hsl(302, 100%, 97%);
+}
